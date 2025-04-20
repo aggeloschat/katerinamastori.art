@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katerina Mastori | Contemporary Painter</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <!-- Splash Screen -->
+  <div class="splash">
+    <div class="splash-logo">Katerina Mastori</div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo">Katerina Mastori</a>
+    <div class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <!-- <li><a href="#exhibitions">Exhibitions</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content fade-in">
+      <h1 class="delay-1">Emotions Through Color</h1>
+      <p class="delay-2">Contemporary paintings that explore the boundaries of perception and emotion.</p>
+      <a href="#gallery" class="btn delay-3">View Gallery</a>
+    </div>
+    <div class="hero-bg"></div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-image fade-in">
+      <img
+        src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1335&q=80"
+        alt="Katerina Mastori">
+    </div>
+    <div class="about-content delay-1">
+      <h2 class="section-title">About The Artist</h2>
+      <p>Katerina Mastori is a contemporary painter based in Athens, Greece. Her work explores the intersection of
+        color, form, and emotion, creating visual experiences that challenge perception.</p>
+      <p>With a background in classical art and modern design, Katerina's paintings have been exhibited in galleries
+        across Europe and collected by art enthusiasts worldwide.</p>
+      <p>Her latest series, "Chromatic Dialogues," examines the relationship between color and human emotion through
+        abstract compositions that invite personal interpretation.</p>
+      <a href="#contact" class="btn" style="margin-top: 2rem;">Commission Work</a>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <div class="gallery-header fade-in">
+      <h2 class="section-title">Gallery</h2>
+      <div class="gallery-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="abstract">Abstract</button>
+        <button class="filter-btn" data-filter="figurative">Figurative</button>
+        <button class="filter-btn" data-filter="landscape">Landscape</button>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      <!-- Gallery items would be dynamically loaded here -->
+      <div class="gallery-item" data-category="abstract">
+        <img
+          src="https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1336&q=80"
+          alt="Abstract Painting 1">
+        <div class="gallery-item-overlay">
+          <h3 class="gallery-item-title">Chromatic No. 5</h3>
+          <p class="gallery-item-desc">Acrylic on canvas, 2023</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="figurative">
+        <img
+          src="https://images.unsplash.com/photo-1579783900882-c0d3dad117c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1336&q=80"
+          alt="Figurative Painting 1">
+        <div class="gallery-item-overlay">
+          <h3 class="gallery-item-title">Silent Conversation</h3>
+          <p class="gallery-item-desc">Oil on canvas, 2022</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="landscape">
+        <img
+          src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1345&q=80"
+          alt="Landscape Painting 1">
+        <div class="gallery-item-overlay">
+          <h3 class="gallery-item-title">Aegean Memories</h3>
+          <p class="gallery-item-desc">Mixed media, 2021</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="abstract">
+        <img
+          src="https://images.unsplash.com/photo-1579783901060-d7ff40d7add8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1336&q=80"
+          alt="Abstract Painting 2">
+        <div class="gallery-item-overlay">
+          <h3 class="gallery-item-title">Urban Rhythm</h3>
+          <p class="gallery-item-desc">Acrylic and ink, 2023</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="figurative">
+        <img
+          src="https://images.unsplash.com/photo-1579783900940-0a8fafa3f8b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1336&q=80"
+          alt="Figurative Painting 2">
+        <div class="gallery-item-overlay">
+          <h3 class="gallery-item-title">The Dancer</h3>
+          <p class="gallery-item-desc">Oil on canvas, 2022</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="landscape">
+        <img
+          src="https://images.unsplash.com/photo-1579783900882-c0d3dad117c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1336&q=80"
+          alt="Landscape Painting 2">
+        <div class="gallery-item-overlay">
+          <h3 class="gallery-item-title">Mountain Light</h3>
+          <p class="gallery-item-desc">Watercolor, 2020</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <!-- Exhibitions Section --> -->
+  <!-- <section class="exhibitions" id="exhibitions"> -->
+  <!--   <div class="fade-in"> -->
+  <!--     <h2 class="section-title">Exhibitions</h2> -->
+  <!--     <div class="exhibitions-list"> -->
+  <!--       <div class="exhibition-item delay-1"> -->
+  <!--         <div class="exhibition-date">June 2023</div> -->
+  <!--         <div class="exhibition-content"> -->
+  <!--           <h3 class="exhibition-title">Chromatic Dialogues - Solo Exhibition</h3> -->
+  <!--           <p class="exhibition-location">Athens Modern Art Gallery, Greece</p> -->
+  <!--         </div> -->
+  <!--       </div> -->
+  <!--       <div class="exhibition-item delay-2"> -->
+  <!--         <div class="exhibition-date">March 2023</div> -->
+  <!--         <div class="exhibition-content"> -->
+  <!--           <h3 class="exhibition-title">Mediterranean Colors - Group Show</h3> -->
+  <!--           <p class="exhibition-location">Barcelona Contemporary, Spain</p> -->
+  <!--         </div> -->
+  <!--       </div> -->
+  <!--       <div class="exhibition-item delay-3"> -->
+  <!--         <div class="exhibition-date">October 2022</div> -->
+  <!--         <div class="exhibition-content"> -->
+  <!--           <h3 class="exhibition-title">New Perspectives in Abstract Art</h3> -->
+  <!--           <p class="exhibition-location">Berlin Art Space, Germany</p> -->
+  <!--         </div> -->
+  <!--       </div> -->
+  <!--       <div class="exhibition-item"> -->
+  <!--         <div class="exhibition-date">May 2022</div> -->
+  <!--         <div class="exhibition-content"> -->
+  <!--           <h3 class="exhibition-title">Emerging Artists Showcase</h3> -->
+  <!--           <p class="exhibition-location">Paris Modern Art Museum, France</p> -->
+  <!--         </div> -->
+  <!--       </div> -->
+  <!--     </div> -->
+  <!--   </div> -->
+  <!-- </section> -->
+  <!---->
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="fade-in">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-container">
+        <div class="contact-info delay-1">
+          <div class="contact-info-item">
+            <h3>Studio</h3>
+            <p>Karavos<br>Aliveri, Euvoias Greece</p>
+          </div>
+          <div class="contact-info-item">
+            <h3>Email</h3>
+            <p>kmastorikaterina@gmail.com</p>
+          </div>
+          <!-- <div class="contact-info-item"> -->
+          <!--   <h3>Social</h3> -->
+          <!--   <div class="social-links"> -->
+          <!--     <a href="#"><i class="fab fa-instagram"></i></a> -->
+          <!--     <a href="#"><i class="fab fa-facebook-f"></i></a> -->
+          <!--     <a href="#"><i class="fab fa-twitter"></i></a> -->
+          <!--   </div> -->
+          <!-- </div> -->
+        </div>
+        <div class="contact-form delay-2">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="fade-in">
+    <div class="social-links">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-pinterest"></i></a>
+    </div>
+    <p class="copyright">© 2025 Katerina Mastori. All rights reserved.</p>
+  </footer>
+
+
+</body>
+<script src="script/script.js"></script>
+
+</html>
